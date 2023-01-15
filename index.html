@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best UI Ever-</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/15e8fc7f6b.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            padding: 0;
+            font-family: 'Poppins',sans-serif;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Math&family=Poppins:wght@400;700&family=Quicksand&display=swap');
+        .logo img{
+        width: 100px;
+        height: 80px;
+        top: 0;
+        }
+        nav {
+            background-color: #093aff;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+                height: 5vh;
+          }
+          nav ul {
+            list-style-type: none;
+            position: relative;
+            margin: 0;
+            top: 25px;
+            padding: 0;
+            display: flex;
+          }
+          nav li {
+            margin: 0 10px;
+          }
+          nav a {
+            color: #fff;
+            text-decoration: none;
+          }
+          nav a:hover {
+            color: #ccc;
+          }
+          
+        .top{
+            width: 40vw;
+            margin: auto;
+            background-color: rgb(0, 0, 0);
+            height: 8vh;
+            text-align: center;
+            padding: 20px;
+            /* border-radius: 20px; */
+        }
+        
+        .top input{
+            width: 30vw;
+            height: 2rem;
+            outline: none;
+            border-radius: 10px;
+            font-size: 20px;
+            padding: 20px;
+        }
+        input::placeholder{
+            text-align: center;
+        }
+        
+        .top i{
+            font-size: 1.3rem;
+            color: aliceblue;
+            cursor: pointer;
+        }
+        .container{
+            width: 40vw;
+           padding: 20px;
+            margin: auto;
+            background-image: linear-gradient(rgb(52, 51, 51),rgb(94, 94, 94))
+            
+        }
+        
+        .container-1{
+            display: flex;
+            gap: 2vw;
+            
+        }
+        .container-1 h3:hover{
+            color: black;
+        }
+        
+        .container-1 a{
+            text-decoration: none;
+        }
+        .container-1 a{
+            text-decoration: none;
+        }
+        .blog-1,.blog-2,.blog-3,.blog-4{
+            width: 15vw;
+            background-image: linear-gradient(rgb(49, 49, 240),rgb(37, 255, 9));
+                height: 10vh;
+            padding: 20px;
+            border-radius: 20px;
+            justify-content: space-between;
+            color: white;
+            font-family: 'poppins',sans-serif;
+            
+        }
+        .blog-1:hover,.blog-2:hover,.blog-3:hover,.blog-4:hover{
+            box-shadow: 2px 2px 3px 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="/"><img
+                src="https://cutewallpaper.org/cdn-cgi/mirage/dd19f2d06ebc24f541f142b37b4289ffa7de722a7607e39984c5c6dd4ce8defd/1280/24/google-logo-png-white/google-logo-transparent-designbust.png">
+            </a> </div>
+        <div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="top-nav">
+        <div class="top">
+
+            <input type="search" placeholder="Search"><span> <i class="fa-solid fa-magnifying-glass"></i></span>
+
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="container-1">
+            <a href="/book">
+                <div class="blog-1">
+                    <h3>Book</h3>
+                </div>
+            </a>
+
+            <a href="/playlist">
+                <div class="blog-2">
+                    <h3>Podcasts</h3>
+                </div>
+            </a>
+        </div>
+        <br>
+        <a href="/playlists">
+            <div class="container-1">
+                <div class="blog-3">
+                    <h3>Playlists</h3>
+                </div>
+        </a>
+        <a href="/library">
+            <div class="blog-4">
+                <h3>Your Library</h3>
+            </div>
+        </a>
+
+    </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
